@@ -11,3 +11,8 @@
 7. Once you've got them all commit and push your code and send me a pull request, TravisCI will let you know if your code is correct!
 
 
+
+##Bonus round
+---
+
+I wrote a special problem called `make_change` thats a real brain teaser if you feel like putting in the extra effort to really get Javascript down. Think about the problem and what you have to do before you write down your first line of code though
