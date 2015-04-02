@@ -1,7 +1,4 @@
-var ghost = {
-  color: function() {
-    return 'white';
-  }
+ghost = {
 };
 function evenlyDivide() {
 
