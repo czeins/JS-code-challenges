@@ -6,8 +6,8 @@ describe("ghost", function() {
 describe('evenlyDivide', function() {
   it("returns an array of integers that evenly divide the target number", function() {
     expect(evenlyDivide(4)).toEqual([1,2,4]);
-    expect(evenlyDivide(4)).toEqual([1,5]);
-    expect(evenlyDivide(4)).toEqual([1,2,3,5,6,10,15,30]);
+    expect(evenlyDivide(5)).toEqual([1,5]);
+    expect(evenlyDivide(30)).toEqual([1,2,3,5,6,10,15,30]);
   });
 });
 describe("lightsabers", function() {
@@ -28,10 +28,10 @@ describe("last", function() {
 });
 describe("palindrome", function() {
   it("returns false on non palindromes", function () {
-    expect( palindrome("Glenn")).toBeFalsey();
+    expect( palindrome("glenn")).toBeFalsey();
   });
   it( "returns true on palindromes", function () {
-    expect( palindrome("Anna")).toBeTruthy();
+    expect( palindrome("anna")).toBeTruthy();
   });
 });
 describe("solution", function() {
@@ -51,4 +51,3 @@ describe("squareRoot", function() {
     expect(squareRoot(333)).toBeFalsey();
   });
 });
-        
