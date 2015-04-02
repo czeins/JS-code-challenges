@@ -1,5 +1,3 @@
-/* jshint karma:true */
-
 describe("ghost", function() {
   it('should return a random color', function() {
     expect(['white','yellow','purple','red']).toContain(ghost.color());
