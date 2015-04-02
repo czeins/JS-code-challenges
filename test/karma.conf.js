@@ -13,7 +13,7 @@ module.exports = function(config) {
     urlRoot: '_karma_',
     files: [
       'bower_components/jquery/dist/jquery.js',
-      'app/js/**/*.js',
+      'js/*.js',
       'test/spec/**/*.js'
     ],
     exclude: [],
